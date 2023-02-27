@@ -1,21 +1,18 @@
 import styled from "styled-components";
 
 const ButtonStyled = styled.button`
-  font-family: "Saira Stencil One", "Sans Serif";
-  font-size: 1.25rem;
-  background-color: #cccf18;
-  width: 325px;
-  height: 40px;
+  font-family: var(--primary-font);
+  font-size: var(--secondary-font-size);
+  background-color: var(--primary-color);
+  padding: 5px 100px;
   border-radius: 10px;
-  border: none;
-  cursor: pointer;
 
   :disabled {
-    background-color: #8b8d1b;
+    background-color: var(--disabled-button-color);
   }
 
   @media (min-width: 768px) {
-    height: 60px;
+    padding: 5px 100px;
   }
 `;
 
