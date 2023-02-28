@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 const ButtonStyled = styled.button`
-  font-family: var(--primary-font);
-  font-size: var(--secondary-font-size);
-  background-color: var(--primary-color);
+  font-family: ${(props) => props.theme.fonts.mainFont};
+  font-size: ${(props) => props.theme.fonts.sizes.bigSize};
+  background-color: ${(props) => props.theme.colors.mainColor};
   padding: 5px 100px;
   border-radius: 10px;
 
   :disabled {
-    background-color: var(--disabled-button-color);
+    background-color: ${(props) => props.theme.colors.disabledButtonColor};
   }
 
   @media (min-width: 768px) {

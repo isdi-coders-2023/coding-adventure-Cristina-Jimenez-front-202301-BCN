@@ -1,11 +1,12 @@
-import Button from "./components/Button/Button";
+import Form from "./components/Form/Form";
 
 const App = (): JSX.Element => {
-  const signUpText = "Sign up";
   return (
-    <div className="app">
-      <Button text={signUpText} />
-    </div>
+    <>
+      <div className="app">
+        <Form />
+      </div>
+    </>
   );
 };
 
