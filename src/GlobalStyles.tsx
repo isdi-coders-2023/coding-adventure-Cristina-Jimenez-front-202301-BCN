@@ -1,13 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-
-:root {
-  --primary-color: #cccf18;
-  --error-modal-color: #F3949A;
-  --primary-font: "Saira Stencil One", "Sans Serif";
-  --secondary-font-size: 1.25rem;
-}
 *,
 ::after,
 ::before {
