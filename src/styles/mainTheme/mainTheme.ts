@@ -8,8 +8,15 @@ export const mainTheme: DefaultTheme = {
   },
   fonts: {
     mainFont: "'Saira Stencil One', 'Sans Serif'",
+    secondaryFont: "'Roboto', sans-serif",
     sizes: {
       bigSize: "1.25rem",
+    },
+    weights: {
+      bold: "700",
+    },
+    colors: {
+      white: "#fff",
     },
   },
 };

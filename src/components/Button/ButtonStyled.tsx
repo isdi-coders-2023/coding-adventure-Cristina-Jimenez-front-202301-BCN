@@ -12,7 +12,7 @@ const ButtonStyled = styled.button`
   }
 
   @media (min-width: 768px) {
-    padding: 5px 100px;
+    padding: 14px 110px;
   }
 `;
 

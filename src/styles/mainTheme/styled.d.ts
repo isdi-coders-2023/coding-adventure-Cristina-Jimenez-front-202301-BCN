@@ -9,8 +9,15 @@ declare module "styled-components" {
     };
     fonts: {
       mainFont: string;
+      secondaryFont: string;
       sizes: {
         bigSize: string;
+      };
+      weights: {
+        bold: string;
+      };
+      colors: {
+        white: string;
       };
     };
   }
