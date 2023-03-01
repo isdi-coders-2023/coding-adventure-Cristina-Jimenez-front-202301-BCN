@@ -10,7 +10,7 @@ describe("Given the Button component", () => {
       const expectedButtonText = "Sign up";
       render(
         <ThemeProvider theme={mainTheme}>
-          <Button text={expectedButtonText} />
+          <Button areFieldsEmpty={true} text={expectedButtonText} />
         </ThemeProvider>
       );
 
