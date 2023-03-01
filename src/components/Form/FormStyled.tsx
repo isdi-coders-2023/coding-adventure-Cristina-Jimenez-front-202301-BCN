@@ -17,7 +17,8 @@ const FormStyled = styled.form`
     gap: 0.7rem;
   }
 
-  label {
+  .login-form__field {
+    margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -37,10 +38,15 @@ const FormStyled = styled.form`
     width: 100%;
     margin-top: 0.5rem;
     display: block;
+    background-color: #fff;
   }
 
   .form-required-modal {
     visibility: hidden;
+
+    &&__visible {
+      visibility: visible;
+    }
   }
 `;
 

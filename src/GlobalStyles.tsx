@@ -22,6 +22,7 @@ button {
 
 input {
   outline: none;
+  background-color: none;
 }
 
 `;
