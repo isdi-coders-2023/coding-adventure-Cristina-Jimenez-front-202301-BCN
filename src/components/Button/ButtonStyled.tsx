@@ -7,6 +7,7 @@ const ButtonStyled = styled.button`
   padding: 5px 100px;
   border-radius: 10px;
   width: 100%;
+  margin-top: 1.3rem;
 
   :disabled {
     background-color: ${(props) => props.theme.colors.disabledButtonColor};
@@ -14,6 +15,7 @@ const ButtonStyled = styled.button`
 
   @media (min-width: 768px) {
     padding: 14px 110px;
+    width: 23rem;
   }
 `;
 
