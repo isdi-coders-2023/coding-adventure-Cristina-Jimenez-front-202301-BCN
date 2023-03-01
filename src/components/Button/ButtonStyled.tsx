@@ -6,6 +6,7 @@ const ButtonStyled = styled.button`
   background-color: ${(props) => props.theme.colors.mainColor};
   padding: 5px 100px;
   border-radius: 10px;
+  width: 100%;
 
   :disabled {
     background-color: ${(props) => props.theme.colors.disabledButtonColor};
