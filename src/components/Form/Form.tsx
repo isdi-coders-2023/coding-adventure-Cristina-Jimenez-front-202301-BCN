@@ -5,7 +5,7 @@ const Form = (): JSX.Element => {
   const signUpText = "Sign Up";
   return (
     <FormStyled className="register-form">
-      <div className="login-form__field">
+      <div className="register-form__field">
         <label htmlFor="email">
           Email
           <input
@@ -18,7 +18,7 @@ const Form = (): JSX.Element => {
         </label>
         <span className="form-required-modal">Email is required</span>
       </div>
-      <div className="login-form__field">
+      <div className="register-form__field">
         <label htmlFor="password">
           Password
           <input
@@ -30,14 +30,14 @@ const Form = (): JSX.Element => {
         </label>
         <span className="form-required-modal">Password is required</span>
       </div>
-      <div className="login-form__field">
+      <div className="register-form__field">
         <label htmlFor="image">
           Image
           <input required type="file" id="image" />
         </label>
         <span className="form-required-modal">Image is required</span>
       </div>
-      <div className="login-form__submit">
+      <div className="register-form__submit">
         <Button text={signUpText} />
         <span className="form-required-modal">Sorry, something went wrong</span>
       </div>
