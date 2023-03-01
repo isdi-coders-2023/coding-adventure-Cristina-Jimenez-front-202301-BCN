@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "@fontsource/saira-stencil-one";
+import "@fontsource/roboto";
 import GlobalStyles from "./GlobalStyles";
 import { ThemeProvider } from "styled-components";
 import { mainTheme } from "./styles/mainTheme/mainTheme";

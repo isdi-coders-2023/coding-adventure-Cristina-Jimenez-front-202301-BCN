@@ -1,31 +1,42 @@
 import Button from "../Button/Button";
+import FormStyled from "./FormStyled";
 
 const Form = (): JSX.Element => {
   const signUpText = "Sign Up";
   return (
-    <>
-      <h2>Register for the event</h2>
-      <form>
-        <label htmlFor="username">Username</label>
+    <FormStyled className="login-form">
+      <label htmlFor="email">
+        Email
         <input
           required
           autoComplete="off"
           type="text"
-          id="username"
+          id="email"
           placeholder="Introduce your email"
         />
-        <label htmlFor="password">Password</label>
+        <span className="form-required-modal">Email is required</span>
+      </label>
+      <label htmlFor="password">
+        Password
         <input
           required
           type="password"
           id="password"
           placeholder="Introduce your password"
         />
-        <label htmlFor="image">Image</label>
+        <span className="form-required-modal">Password is required</span>
+      </label>
+
+      <label htmlFor="image">
+        Image
         <input required type="file" id="image" />
+        <span className="form-required-modal">Image is required</span>
+      </label>
+      <div className="login-form__submit">
         <Button text={signUpText} />
-      </form>
-    </>
+        <span className="form-required-modal">Sorry, something went wrong</span>
+      </div>
+    </FormStyled>
   );
 };
 
