@@ -4,6 +4,8 @@ declare module "styled-components" {
   export interface DefaultTheme {
     colors: {
       mainColor: string;
+      DarkColor: string;
+      LightColor: string;
       disabledButtonColor: string;
       errorModalColor: string;
     };
@@ -18,6 +20,7 @@ declare module "styled-components" {
       };
       colors: {
         white: string;
+        black: string;
       };
     };
   }

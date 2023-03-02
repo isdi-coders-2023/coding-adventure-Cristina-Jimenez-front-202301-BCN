@@ -3,6 +3,8 @@ import { DefaultTheme } from "styled-components";
 export const mainTheme: DefaultTheme = {
   colors: {
     mainColor: "#cccf18",
+    DarkColor: "#000",
+    LightColor: "#fff",
     disabledButtonColor: "#cccf1889",
     errorModalColor: "#F3949A",
   },
@@ -17,6 +19,7 @@ export const mainTheme: DefaultTheme = {
     },
     colors: {
       white: "#fff",
+      black: "#000",
     },
   },
 };

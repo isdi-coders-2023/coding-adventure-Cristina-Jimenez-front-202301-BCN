@@ -5,7 +5,7 @@ const FormStyled = styled.form`
   font-weight: ${(props) => props.theme.fonts.weights.bold};
   color: ${(props) => props.theme.fonts.colors.white};
   display: flex;
-  background-color: #000;
+  background-color: ${(props) => props.theme.colors.DarkColor};
   flex-direction: column;
   justify-content: space-between;
   padding: 0.8rem;
@@ -34,7 +34,7 @@ const FormStyled = styled.form`
     width: 100%;
     margin-top: 0.5rem;
     display: block;
-    background-color: #fff;
+    background-color: ${(props) => props.theme.colors.LightColor};
   }
 
   .form-required-modal {
